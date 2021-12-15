@@ -55,6 +55,7 @@ dependencies {
     requestKey, bundle ->
     val result = bundle.getBoolean(PermissionRequestFragment.GRANTED_ALL_PERMISSION)
     val deniedList = bundle.getStringArrayList(PermissionRequestFragment.DENIED_LIST)
+    //control request result
   }
   ```
 
